@@ -2,7 +2,7 @@
 
 ## 1. Projektbeskrivning (Beskriv vad sidan ska kunna göra)
 
-#Soundcloud liknande plattform där en användare kan söka och ladda upp och ta bort musik.
+#Soundcloud liknande plattform där en användare kan söka, ladda upp och ta bort musik.
 
 
 ## 2. Vyer (visa bildskisser på dina sidor)
