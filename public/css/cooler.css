@@ -1,0 +1,17 @@
+body {
+    background: cornflowerblue;
+}
+
+nav {
+    margin: auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+nav a, nav a:link {
+    color: black;
+    font-size:2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
