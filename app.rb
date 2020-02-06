@@ -7,6 +7,9 @@ get('/')  do
   slim(:index)
 end 
 
+get("/create account") do
+  
+
 post("/create") do
   title_id = params[:title]
   artist_id = params[:artist]

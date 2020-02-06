@@ -1,17 +1,14 @@
-form action="show_album" method="get"
-  input type="number" name="number" placeholder="Välj id att visa"
-  input type="submit" value="Visa Album"
+h1 Welcome!
 
-form action="create" method="post"
-  input type="text" name="title" placeholder="Lägg till albumnamn"
-  input type="number" name="artist" placeholder="Välj till artist id"
-  input type="submit" value="Lägg till"
+form action="login" method="post"
+  input type="text" name="username" placeholder="Username"
+  input type="text" name="password" placeholder="Password"
+  input type="submit" value="Login"
 
-form action="update" method="post"
-  input type="number" name="album" placeholder="Ändra album id"
-  input type="text" name="title" placeholder="Välj album namn"
-  input type="submit" value="Ändra"
+  a href="/create_account" Skapa konto
 
-form action="delete" method="post"
-  input type="number" name="album" placeholder="Vilket album id vill du ta bort?"
-  input type="submit" value="ta bort"
+form action="creat_account" method="post"
+  input type="text" name="username" placeholder="Username"
+  input type="text" name="password" placeholder="Password"
+  input type="text" name="conf_password" placeholder="Confirm Password"
+  input type="submit" value="Creat account"

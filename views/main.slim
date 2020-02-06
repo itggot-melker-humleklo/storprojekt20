@@ -1,0 +1,17 @@
+form action="show_album" method="get"
+  input type="number" name="number" placeholder="Välj id att visa"
+  input type="submit" value="Visa Album"
+
+form action="create" method="post"
+  input type="text" name="title" placeholder="Lägg till albumnamn"
+  input type="number" name="artist" placeholder="Välj till artist id"
+  input type="submit" value="Lägg till"
+
+form action="update" method="post"
+  input type="number" name="album" placeholder="Ändra album id"
+  input type="text" name="title" placeholder="Välj album namn"
+  input type="submit" value="Ändra"
+
+form action="delete" method="post"
+  input type="number" name="album" placeholder="Vilket album id vill du ta bort?"
+  input type="submit" value="ta bort"
