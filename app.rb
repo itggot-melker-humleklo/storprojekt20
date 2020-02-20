@@ -4,11 +4,12 @@ require 'sqlite3'
 
 
 get('/')  do
-  slim(:index)
+  slim(:main)
 end 
 
-get("/create account") do
-  
+post("/login") do
+  slim(:index)
+end
 
 post("/create") do
   title_id = params[:title]
