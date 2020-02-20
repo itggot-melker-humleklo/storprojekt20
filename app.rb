@@ -1,15 +1,17 @@
 require 'sinatra'
 require 'slim'
-require 'sqlite3'
+require 'SQLite3'
 
+enable :sessions
 
 get('/')  do
   slim(:main)
 end 
 
-post("/login") do
+get("/login") do
   slim(:index)
 end
+
 
 post("/create") do
   title_id = params[:title]
